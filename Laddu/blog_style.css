@@ -1,0 +1,103 @@
+/* External CSS of page blog */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url(images/blog.jpg);
+    background-size: cover;
+    background-position: center;           /* position for background Image */
+     background-attachment: fixed;
+    width: 95%;
+    height: 20px solid #fff;
+    font-family: sans-serif;
+    padding: 64px 43px;
+    margin: 50px;
+    max-width: 1100px; 
+}
+.my_blog{     
+    margin-bottom: 40px;
+}
+.date{                                        /* CSS Effect for date */
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.paragraphs{
+    border-left: 5px solid #0e0538 ;
+    padding-left: 5px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 2.1rem;                    /* determines the font size */
+    color: rgb(255, 255, 255);
+}
+
+.navigation_links{                        /* class name used */
+    padding: 2% 0%;
+    flex: 1;
+    text-align: right;
+}      
+.navigation_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px;    
+}
+.navigation_links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: Impact sans-serif;
+    
+
+}
+.navigation_links ul li::after{
+    content: '';
+    width: 0%;  /*  to make line hidden */
+    height: 3px;
+    background: #ee1d15c0;
+    display: block;
+    margin:auto;
+    transition: 0.3s;
+}
+
+.navigation_links ul li:hover::after{   /* to make hover */
+    width: 100%;
+}
+
+.navigation_links{
+    position: absolute;
+    height: 110vh;
+    top: 0;
+    right: 0;
+    text-align: left;
+}
+
+/* CSS style of Research */
+/* use of External CSS */
+
+.research-flex {
+    width: 50%;
+    border: solid rgb(44, 9, 143) 6px;
+    background-color: rgba(245, 245, 245, 0.65);
+    border-radius: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+
+.research_flex_last {
+    width: 50%;
+    border: solid rgb(44, 9, 143) 6px;
+    background-color: rgba(245, 245, 245, 0.65);
+    border-radius: 28px;
+    padding-left: 50px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.research-container{
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}

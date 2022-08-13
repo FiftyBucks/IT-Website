@@ -1,0 +1,60 @@
+<!DOCTYPE html>                         <!-- document type is HTML -->
+<html>
+<head>
+	<title>Contact Us Now</title>
+	<link rel="stylesheet"  href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+	<section class="second_header">
+        <nav>
+            <h1 style="color: rgb(255, 255, 255); font-size: 33px ;" >Laddu Writes</h1>    <!-- //use of inline css -->
+         <div class="nav-links">                                        <!-- class name  -->
+            <ul>     <!-- for list of links -->
+               <li><a href="index.html">HOME</a></li>      <!-- Adding link for navigation bar --> 
+               <li><a href="CV.html">CV</a></li>   <!-- opens the next web page known by CV -->
+               <li><a href="Blog.html">BLOG</a></li>
+               <li><a href="RESEARCH.html">RESEARCH</a></li>
+               <li><a href="CONTACT.html">CONTACT</a></li>
+            </ul>
+         </div>
+       </nav>
+	</section>
+
+    <div class="containers">    
+		<div class="contact_box">
+			<div class="leftone"></div>
+			<div class="rightone">
+				<h2>Contact Me</h2>
+				<form name="contact_form" onsubmit="audio.play();validateForm();">  <!-- calling the  function -->     <!-- audio.play method is in-built method -->
+
+					<input type="text" name="first_name" class="field" placeholder="Your Name">
+					<input type="text" name="Email" class="field" placeholder="Your Email">
+					<input type="text" name="Phone" class="field" placeholder="Phone">
+					<textarea placeholder="Message" name="Message" class="field"></textarea>
+					<button class="button" type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">                                  /* internal javascript */
+	 	const audio =new Audio();                                     /* creation of object */
+		audio.src = "./sounds/Mouse-Click.mp3";                         
+	</script>d
+	<script type="text/javascript" src="javascript.js"></script>     <!-- external javascript -->
+</body>
+</html> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
